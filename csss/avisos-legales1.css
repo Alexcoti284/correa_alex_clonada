@@ -16,7 +16,7 @@ body {
 .header {
   width: 100%;
   height: 10vh;
-  background-color: black;
+  background-color: rgb(4, 4, 4);
   position: relative;
   background-size: cover;
   background-position: center;
@@ -124,45 +124,44 @@ nav button {
   font-size: 13px;
 }
 
-.texto>h1 {
+.texto h1 {
   font-size: 40px;
   font-weight: 750;
-  max-width: 800px;
+  max-width: 650px;
   line-height: 50px;
   margin-bottom: 30px;
   margin-top: 10px;
-  margin-right: -200px;
 }
 
-.texto>p {
+.texto p {
   font-size: 17px;
   font-weight: 350;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.info p{
-  font-size: 17px;
-  font-weight: 350;
-  color: black;
-  padding-bottom: 5px;
-  padding-top: 15px;
+.texto h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #221f1f;
+  margin-bottom: 15px;
 }
 
-.info pre{
-  font-size: 17px;
-  font-weight: 350;
-  color: black;
-  padding-bottom: 5px;
-}
-
-.texto a {
+.texto p a {
   color: #e50914;
   text-decoration: none;
 }
 
-.texto a:hover {
+.texto p a:hover {
   text-decoration: underline;
+}
+
+.texto h4 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #221f1f;
+  margin-bottom: 50px;
+  margin-top: -20px;
 }
 
 /* -----------------------------------FOOTER------------------------- */
@@ -230,9 +229,11 @@ nav button {
     font-size: 0;
     padding: 0;
   }
+
   .subscripcion {
     display: none;
   }
+  
   /* -----------------------ARREGLOS DEL HEADER 2--------------------------------------- */
   p {
     font-size: 12px;
@@ -242,7 +243,7 @@ nav button {
   .imprimir {
     display: none;
   }
-  /* -----------------------ARREGLOS BODY CON INFO--------------------------------------- */
+  /* -----------------------ARREGLOS DEL BODY CON INFO--------------------------------------- */
   .texto {
     padding-left: 12px;
     padding-right: 12px;
@@ -251,12 +252,9 @@ nav button {
   .texto h1 {
     font-size: 30px;
     font-weight: 700;
-    max-width: 650px;
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 10px;
-    padding-left: 4px;
-    margin-right: 0;
+    margin-top: -10px;
   }
 
   .texto p {
@@ -264,18 +262,15 @@ nav button {
     margin-bottom: 30px;
   }
 
-  .texto pre{
-    font-size: 14px;
-    margin-bottom: 30px;
-    margin-top: -30px;
-    padding-left: 5px;
-    margin-right: 5px;
-    /* Esto es para que la etiqueta pre, haga saltos de línea si no cabe en el diseño */
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    text-align: justify;
+  .texto h3 {
+    font-size: 18px;
+    text-align: center;
   }
 
+  .texto h4 {
+    font-size: 15px;
+    margin-top: -10px;
+  }
   /* -----------------------ARREGLOS DEL FOOTER--------------------------------------- */
   .footer {
     padding: 20px 2% 50px;
